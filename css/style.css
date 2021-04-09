@@ -1,0 +1,48 @@
+body{
+    background-color: darksalmon;
+}
+.container{
+    width: 100%;
+    display: flex;
+}
+.rou{margin: 8px;
+   width:100%;
+    display: flex;
+}
+.column1{
+    padding: 10px;
+    width: 50%;
+    height: 60vh;
+}
+.imagen{
+    transition: transform 0.5s;
+}
+.imagen img{
+    height: 60vh;
+    width: 100%;
+}
+.imagen img:hover{
+    transform: scale(1.1);
+}
+.column2{
+    padding: 10px;
+    width: 50%;
+    height: 60vh;
+}
+.imagen .text{
+    margin: 5px 0 0 15px;
+    
+}
+.imagen a{
+    color: maroon;
+    font-size: 25px;
+}
+
+.imagen p{
+
+    font-size: 30px;
+}
+
+
+
+
